@@ -18,7 +18,8 @@ $main_dishes = array('cuke' => 'Braised Sea Cucumber',
                      'tripe' => 'Sauteed Tripe with Wine Sauce',
                      'taro' => 'Stewed Pork with Taro',
                      'giblets' => 'Baked Giblets with Salt',
-                     'abalone' => 'Abalone with Marrow and Duck Feet');
+                     'abalone' => 'Abalone with Marrow and Duck Feet',
+                     'pizza' => 'Cheese Pizza');
 
 // The main page logic:
 // - If the form is submitted, validate and then process or redisplay
