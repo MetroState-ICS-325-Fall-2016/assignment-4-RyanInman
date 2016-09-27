@@ -35,7 +35,9 @@
         If you want your order delivered, put your address here:</td>
         <td><?= $form->textarea(['name' => 'comments']) ?></td></tr>
 
-    <tr><td colspan="2" align="center"><?= $form->input('submit', ['value' => 'Order']) ?>
+    <tr><td colspan="2" align="center">
+            <?= $form->input('reset', ['value' => 'Reset'])?>
+            <?= $form->input('submit', ['value' => 'Order'])?>
     </td></tr>
 
 </table>
