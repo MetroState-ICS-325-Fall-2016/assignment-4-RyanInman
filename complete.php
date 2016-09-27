@@ -21,6 +21,13 @@ $main_dishes = array('cuke' => 'Braised Sea Cucumber',
                      'abalone' => 'Abalone with Marrow and Duck Feet',
                      'pizza' => 'Cheese Pizza');
 
+$drinks = array('coke' => 'Coke',
+                'dietcoke' => 'Diet Coke',
+                'sprite' => 'Sprite',
+                'milk' => 'Milk',
+                'water' => 'Water'
+);
+
 // The main page logic:
 // - If the form is submitted, validate and then process or redisplay
 // - If it's not submitted, display

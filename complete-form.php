@@ -27,6 +27,13 @@
                                                         'multiple' => true]) ?></td>
     </tr>
 
+    <tr>
+        <td>Pick a Drink</td>
+        <td><?= $form->select($GLOBALS['drinks'], ['name' => 'drink',
+                                                   'multiple' => false])?>
+        </td>
+    </tr>
+
     <tr><td>Do you want your order delivered?</td>
         <td><?= $form->input('checkbox',['name' => 'delivery', 'value' => 'yes']) ?> Yes
         </td></tr>
