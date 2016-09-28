@@ -68,6 +68,14 @@ function validate_form( ) {
     if (! strlen($input['name'])) {
         $errors[] = 'Please enter your name.';
     }
+
+    $email = filter_input(INPUT_POST, "email", FILTER_VALIDATE_EMAIL);
+    if(!strlen($email)) {
+        $errors[] = 'Please enter a valid email address';
+    } else {
+        $input['email'] = $email;
+    }
+
     // size is required
     if(isset($_POST['size'])) {
         $input['size'] = trim($_POST['size']);
