@@ -22,6 +22,7 @@
         <td><?= $form->input('radio',['name' => 'size', 'value' => 'small']) ?> Small <br/>
             <?= $form->input('radio',['name' => 'size', 'value' => 'medium']) ?> Medium <br/>
             <?= $form->input('radio',['name' => 'size', 'value' => 'large']) ?> Large <br/>
+            <?= $form->input('radio',['name' => 'size', 'value' => 'xlarge']) ?> X-Large <br/>
         </td></tr>
 
     <tr><td>Pick one sweet item:</td>
